@@ -1,0 +1,29 @@
+1	Regras para multijogadores no jogo desenvolvido (1vs.1)
+
+A)	Sequência do jogo
+Deve-se informar o nome dos jogadores: jogador 1 e jogador 2. Caso não seja informado, recebem os nomes “Jogador 1” e “Jogador 2”.
+Para cada jogo, um dos jogadores deve informar uma palavra para o outro tentar adivinhar.
+O número máximo de erros possíveis é igual a 7 (cabeça, tronco, braço esquerdo, braço direito, quadril, perna esquerda e perna direita).
+Finalizado o primeiro jogo, deve ser informada a nova palavra para início do segundo jogo. Ao final desse segundo jogo, é mostrado a pontuação de cada jogador e quem foi o vencedor.
+
+B)	Sistema de pontuação
+Acertar uma letra vale (+)10 pontos para cada vez que a letra aparece na palavra;
+Errar 1 letra faz com que o número de erros permitidos (7 no total) diminua 1, desenhando uma parte do corpo do enforcado (cabeça, tronco, braço esquerdo, braço direito, quadril, perna esquerda, perna direita), e faz o jogador perder (-)10 pontos.
+
+2	Regras para jogador individual
+
+A)	Sequência do jogo
+O jogador é solicitado a inserir seu nome após a seleção do modo de jogo individual. Sendo sorteada uma palavra da lista pré-existente para que seja adivinhada pelo jogador.
+O jogador então é solicitado a sugerir uma letra das letras da palavra. Caso acerte, ganha os pontos referentes a quantidade de vezes que a letra aparece. Caso erre, uma das partes do boneco da forca é desenhada e o jogador perde pontos.
+O número máximo de erros possíveis é igual a 7 (cabeça, tronco, braço esquerdo, braço direito, quadril, perna esquerda e perna direita).
+Finalizado o primeiro jogo, caso o jogador vença, é sorteada nova palavra para início do segundo jogo, e assim sucessivamente. Caso o jogador perca, ou seja, erre sete letras da palavra secreta, o saldo de pontos é mostrado e fornecido a função de ranqueamento para eventual classificação se cabível.
+
+B)	Sistema de pontuação
+Acertar uma letra vale (+)10 pontos para cada vez que a letra aparece na palavra;
+Errar 1 letra faz com que o número de erros permitidos (7 no total) diminua 1, desenhando uma parte do corpo do enforcado (cabeça, tronco, braço esquerdo, braço direito, quadril, perna esquerda, perna direita), e faz o jogador perder (-)10 pontos.
+
+
+3	Sistema de ranqueamento
+
+O sistema de ranqueamento é fornecido para os jogos do tipo individual, sendo salvo em arquivo externo ao programa.
+A tela de pontuação mostra as três maiores informações existentes em arquivo ou cria uma lista caso não seja encontrado o arquivo.
