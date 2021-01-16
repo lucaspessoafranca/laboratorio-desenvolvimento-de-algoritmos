@@ -29,9 +29,9 @@ int main () {
 
     dist= bomba * 17.0 /100; // ou 0.17
     etanol = bomba * 12.0 / 100;
-    icsm = bomba * 28.0 / 100;
+    icms = bomba * 28.0 / 100;
     cide = bomba * 7.0 / 100;
-    refinar = bomba - dist - etanol - icms - cide;
+    refinaria = bomba - dist - etanol - icms - cide;
 
     //saída (relatório)
 
@@ -40,7 +40,7 @@ int main () {
     printf("- Custo Etanol Anidro (12%%): R$ %.2f", etanol);
     printf("- ICMS(28%%): R$ %.2f", icms);
     printf("- CIDE, PIS/PASEP e COFINS(7%%): R$ %2.f",cide);
-
-
+    printf("= Valor da refinaria:? R$ %.2f", refinaria);
+    
     return 0;
 }
