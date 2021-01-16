@@ -1,7 +1,8 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <locale.h>
-
+// Crie um menu usando o "SWITCH"
+// O usuÃ¡rio deve digitar um valor de 1 a 7 para saber o dia da semana.
 
 int main (){
 	setlocale(LC_ALL,"Portuguese");
@@ -19,7 +20,7 @@ int main (){
 			printf("Segunda\n");
 			break;
 		case 3:
-			printf("Terça");
+			printf("Terï¿½a");
 			break;
 		case 4:
 			printf("Quarta\n");
@@ -29,9 +30,9 @@ int main (){
 		case 6:
 			printf("Sexta\n");
 		case 7:
-			printf("Sábado\n");
+			printf("Sï¿½bado\n");
 		default:
-			printf("opção inválida. Tente novamente");
+			printf("opï¿½ï¿½o invï¿½lida. Tente novamente");
 	}
 	
 		system("pause");

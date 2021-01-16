@@ -8,8 +8,8 @@ int main (void)
 {
 	float preco_produto, valor_icms, valor_total;
 	
-	//const tipo nome_da_constante = valor_da_constante
-	const float frete = 10.50; // a difença para a variável é que a cosnt Não Pode ser mudada.
+	
+	const float frete = 10.50;  ï¿½ que a cosnt Nï¿½o Pode ser mudada.
 	
 	printf("Informe o valor do produto: " );
 	scanf("%f", &preco_produto);

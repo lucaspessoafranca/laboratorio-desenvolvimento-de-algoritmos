@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <locale.h>
 			
-			/*tabuada */
+			/* Cria uma tabuada - Pode usar estruturas de repetição. */
 
 int main ()
  {
@@ -9,7 +9,7 @@ int main ()
 	
 	int n;
 	int i;
-	printf("Digite um n�mero para saber a tabuada");
+	printf("Digite um número para saber a tabuada");
 	scanf("%d", &n);
 	for(i = 0; i <= 10; i++)
 	{
