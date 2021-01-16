@@ -1,14 +1,15 @@
 #include <stdio.h>
 #include <locale.h> 
 
-//crie um programa que receba duas notas e calcule sua média
+//crie um programa que receba duas notas e calcule sua mï¿½dia
 
 int main(void) {
   setlocale(LC_ALL, "Portuguese");
 
   int i ;
+  //para casting (float)x
   
-  printf("Digite um número para saber o dia da  semana. \n");
+  printf("Digite um nï¿½mero para saber o dia da  semana. \n");
   scanf("%d", &i);
   
   switch (i) {
@@ -19,7 +20,7 @@ int main(void) {
   		printf("Segunda");
   		break;
   	case 3:
-  		printf("Terça");
+  		printf("Terï¿½a");
   		break;
   	case 4:
   		printf("Quarta");
@@ -31,10 +32,10 @@ int main(void) {
   		printf("Sexta");
   		break;
   	case 7:
-  		printf("Sábado");
+  		printf("Sï¿½bado");
   		break;
   	default:
-  		printf("Opção inválida. Tente novamente..");
+  		printf("Opï¿½ï¿½o invï¿½lida. Tente novamente..");
   		break;
   }
 

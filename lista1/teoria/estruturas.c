@@ -1,7 +1,13 @@
 #include <stdio.h>
-
-int main () {
-  
+struct horario {
+  int hora;
+  int minuto;
+  int segundo;
+}
+int main (void) {
+  void receberHorarios(struct horario list[5]);
+  voidprintHorarios(struct horario list[5]);
+  /*
   struct horario 
   {
     int horas;
@@ -18,4 +24,6 @@ int main () {
   printf("%i:%i:%i",agora.horas, agora.minutos, agora.segundos);
 
   return 0;
+  */
+
 }

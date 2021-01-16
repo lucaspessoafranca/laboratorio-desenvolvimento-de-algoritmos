@@ -2,9 +2,7 @@
 
 int main () {
 
-int  fat,n
-int fat2,n2,c;
-int x;
+int  fat, n, x;
 fat = 1;
 printf("Numero:");
 scanf("%d", &n);
@@ -15,4 +13,4 @@ while(n >= 1) {
 }
 printf("o fatorial de %d  é %d",x , fat);
 
-printf("\n");
+printf("\n");   
