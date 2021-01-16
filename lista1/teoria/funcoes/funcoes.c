@@ -1,17 +1,21 @@
 #include <stdio.h>
 #include <locale.h> 
+// global aqui 
 
 int main () {
 	setlocale(LC_ALL, "Portuguese");
-	float calcularArea(float x, float y);
-  float area = calcularArea(10.0,20.0);
-  printf("A área é : %f",area);
+	void teste(void);
+    teste();
+    teste();
+    teste();
 
-  return 0;
+    return 0;
+
 }
 
-float calcularArea(float base, float altura){
-  float area = base * altura;
+void teste(void) {
+static int variavelLocalEstatica = 2;
+variavelLocalEstatica *=2
 
-  return area;
+printf("Local estática: %i\n",variavelLocalEstatica);
 }
